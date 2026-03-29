@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+    <main>
+        <section id="total-earnings">
+            <h2>Total Earnings</h2>
+            <p id="earnings-amount">$0.00</p>
+        </section>
+        <section id="balance-view">
+            <h2>Account Balance</h2>
+            <p id="balance-amount">$0.00</p>
+        </section>
+        <section id="refund-management">
+            <h2>Refund Management</h2>
+            <button onclick="manageRefunds()">Manage Refunds</button>
+        </section>
+        <section id="owner-features">
+            <h2>Owner Features</h2>
+            <ul>
+                <li><button onclick="manageUsers()">Manage Users</button></li>
+                <li><button onclick="viewReports()">View Reports</button></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
